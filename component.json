@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/jquery/jquery-mousewheel.git",
+    "version": "v3.1.12",
+    "name": "jquery-mousewheel",
+    "main": "jquery.mousewheel.js"
+}
