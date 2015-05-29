@@ -8,6 +8,9 @@ jQuery Mousewheel Plugin,用于添加跨浏览器的鼠标滚轮支持。
 > 如果delta的值是负的即-1，那么滚轮就是向下滚动，正的1就是向上。
 
 
+	//引用鼠标滚轮插件
+	require('jquery-mousewheel');
+
 	// using bind
 	$('#my_elem').bind('mousewheel', function(event, delta, deltaX, deltaY) {
 	    if (window.console && console.log) {
